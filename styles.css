@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+h1{
+    font-size: 2.25rem;
+    font-weight: 560;
+    color: #030616;
+    margin-bottom: 0.5rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #030616;
+}
+
+header{
+    text-align: center;
+    margin-top: 2rem ;
+    margin-bottom: 4rem;
+}
+main{
+    margin: 0 auto;
+    width: 62%;
+}
+
+main a{
+    text-decoration: none;
+    color: #4E80EE;
+}
+
+main p{
+    margin: 2rem 0;
+}
+
+hr{
+    margin-bottom: 2rem;
+}
+
+
+ul,ol{
+    margin: 0 0.6rem;
+}
+
+li{
+    margin: 1rem;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    main{
+        width: 90%;
+    }
+}
